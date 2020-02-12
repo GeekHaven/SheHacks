@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SheHacks 3.0</title>
+
+  <link href="styles.css" rel="stylesheet">
+  <link href="timeline.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="landing">
+    <div id="animations">
+      <div id="ani1"></div>
+      <div id="ani2"></div>
+    </div>
+    <!-- <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button> -->
+    <!--<h1 id="title">>HackKU<span id="underscore">_</span></h1>-->
+    <div id="anilogo">
+      <img src="img/logo/she.png" />
+      <div class="name">
+        SheHacks3.0
+      </div>
+    </div>
+    <div id="countdown">
+      <h2>The Hackathon will begin in:</h2>
+      <div id="container">
+        <div class="countdownTime" name="days"><label>Days</label></div>
+        <div class="countdownTime" name="hours"><label>Hours</label></div>
+        <div class="countdownTime" name="minutes"><label>Minutes</label></div>
+        <div class="countdownTime" name="seconds"><label>Seconds</label></div>
+      </div>
+      <h3><span>March 21st - March 22nd, 2020</span></h3>
+    </div>
+    <img src="arrow.svg" id="hint" />
+  </div>
+  <div id="main">
+    <div class="section" id="about">
+      <h1 class="section-title">What is SheHacks?</h1>
+      <p>SheHacks is a non profitable, student held hackathon to introduce young girls across India to coding through the experience of hackathon. With women vastly underrepresented in tech industry all over the world, Hacks strives to inspire a new wave of Indian female coders to bring equality to the booming industry.</p>
+      <p>With women gearing towards technology, we at SheHacks feel it is the need of the hour to provide them with as much motivation as possible.
+
+To incorporate the same into the event, we have female developers who guide and mentor all participants throughout the hackathon and conduct workshops in Python/Django and give motivational tech talks.You can check our <a href="">Code of Conduct</a>.
+
+      </p>
+      <div id="registerCont"><a href="register.html" target="_blank"><div id="registrationButtonBody">
+        Register Now!
+      </div></a></div>
+    </div>
+    <div class="section" id="prizes">
+      <h1 class="section-title">Prizes</h1>
+        <!-- <div class="prize1">
+          <h2>1st Prize : <span>Rs 12,000</span></h2>
+          <h2>2nd Prize : <span>Rs 10,000</span></h2>
+          <h2>3rd Prize : <span>Rs 7,500</span></h2>
+        </div> -->
+        <div class="wrapper">
+        <div class="content1">
+          <div class="card">
+                <div class="icon"><i class="position">1st</i></div>
+                <p class="title">Rs 12,500</p>
+                
+          </div>
+          
+          <div class="card">
+                <div class="icon"><i class="position">2nd</i></div>
+                <p class="title">Rs 10,000</p>
+                
+          </div>
+          
+          <div class="card">
+                <div class="icon"><i class="position">3rd</i></div>
+                <p class="title">Rs 7,500</p>         
+          </div>
+        </div>
+          
+      </div>
+
+
+        <div class="prize1">
+          <h2># <span>25k cash prize for the best hack using <a href="https://graphql.org/">GraphQL</a> and <a href="https://hasura.io/">Hasura</a></span></h2>
+        </div>
+        <div class="prize1">
+          <h2># <span>Goodies and swags for all the participants</span></h2>
+        </div>
+    </div>
+    <div class="section" id="about-points">
+      <h1 class="section-title">Why attend SheHacks?</h4>
+      <div class="inclusion-row">
+        <div class="inclusion-stream">
+          <img class="circle landing-logo" src="https://firebasestorage.googleapis.com/v0/b/sh-site.appspot.com/o/icon-dev.svg?alt=media&amp;token=6022890e-3878-417d-a342-31398227c500" alt="Website Logo">
+          <h4 class="inclusion-stream-header" style="color: rgb(191, 40, 97);">Workshops
+          </h4>
+          <p class="inclusion-stream-text article">Python/Django Workshops to be held during the Hackathon.</p>
+        </div>
+        <div class="inclusion-stream">
+          <img class="circle landing-logo" src="https://firebasestorage.googleapis.com/v0/b/sh-site.appspot.com/o/icon-design.svg?alt=media&amp;token=5f00467f-b764-4394-b7cd-377851bf2a84" alt="Website Logo">
+          <h4 class="inclusion-stream-header" style="color: rgb(47, 65, 120);">Tech-Talks
+          </h4>
+          <p class="inclusion-stream-text article">Motivational talks by women in tech, to further encourage female participation in opensource and other tech domains</p>
+        </div><div class="inclusion-stream">
+          <img class="circle landing-logo" src="https://firebasestorage.googleapis.com/v0/b/sh-site.appspot.com/o/icon-business.svg?alt=media&amp;token=f820d4e3-0fdc-4503-9ff9-25ce76d00120" alt="Website Logo">
+          <h4 class="inclusion-stream-header" style="color: rgb(83, 140, 38);">Mentoring</h4>
+          <p class="inclusion-stream-text article">14 hour hackathon with competent mentors who shall guide and direct the participants</p>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="schedule">
+      <h1 class="section-title">2020 Schedule</h1>
+
+      <section id="schedule" class="b-item">
+						<h2 class="timeline__item timeline__item--year" style="font-weight: 600; margin-top: 30px;" >SCHEDULE</h2>
+						<div class="timeline">
+
+
+							<div class="timeline__item">
+								<h3 class="timeline__title">21th March 9:00 PM :- Opening Ceremony and Briefing</h2>
+									<!-- <p class="timeline__blurb">9:00 PM :- Opening Ceremony</p> -->
+							</div>
+							<div class="timeline__item">
+								<h3 class="timeline__title">21th March 9:30 PM :- Registration</h2>
+									<!-- <p class="timeline__blurb">12:00 AM :- Registration</p> -->
+							</div>
+							<div class="timeline__item">
+								<h3 class="timeline__title">21th March 10:00 PM :- Hacking begins</h2>
+									<!-- <p class="timeline__blurb">11:00 AM :- Lunch</p> -->
+							</div>
+							<div class="timeline__item">
+								<h3 class="timeline__title">22th March 2:00 AM :- Snacks Distribution</h2>
+									<!-- <p class="timeline__blurb">7:30 PM :- Goodies Distribution</p> -->
+							</div>
+							<div class="timeline__item">
+								<h3 class="timeline__title">22th March 8:00 AM :- Breakfast</h2>
+									<!-- <p class="timeline__blurb">8:00 PM :- Dinner</p> -->
+							</div>
+							<div class="timeline__item">
+								<h3 class="timeline__title">22th March 2:00 PM :- Coding Ends</h2>
+									<!-- <p class="timeline__blurb">12:00 AM :- Tshirt Distribution</p> -->
+							</div>
+							<div class="timeline__item">
+								<h3 class="timeline__title">22th March 3:00 PM :- Presentation Starts</h2>
+									<!-- <p class="timeline__blurb">10:00 AM :- Breakfast</p> -->
+							</div>
+							<div class="timeline__item">
+								<h3 class="timeline__title">22th March 5:00 PM :- Prize Distribution and Photoshoot</h2>
+									<!-- <p class="timeline__blurb">10.30 AM - 1.30PM :- Presentation and evaluation by Judges</p> -->
+
+						</div>
+					</section>
+    </div>
+    <div class="section" id="faq">
+      <h1 class="section-title">FAQS</h1>
+      <div id="questionsanswers">
+        <div class="qaa">
+          <h2>Who can attend?</h2>
+          <p>If you're a student and identify as female, we'd love to have you at SheHacks!
+            Whether that's high school, undergrad, or graduate, we
+            believe you can get something out of the event.
+          </p>
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>How big are teams?</h2>
+
+          <p>
+            Teams can consist of anywhere from 2-3 people.
+          </p>
+
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>What should I bring?</h2>
+
+          <p>
+            You'll require any kind of photo ID for check-in, in addition to your usual hacking
+            gear like laptops, chargers.You can find fast internet facilities as well as
+            appropriate accomodation on campus :)
+          </p>
+
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>How much does SheHacks cost?</h2>
+
+          <p>
+            Nothing! We'll also have food, snacks, and prizes.
+          </p>
+
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>Can I work on existing projects?</h2>
+
+          <p>
+            Nope, you can't.The projects have to be developed within the given timeframe from scratch.
+          </p>
+
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>Do you offer travel reimbursements?</h2>
+
+          <p>
+            Yes, we can! We will review it on a case-to-case basis upto a certain cap.
+          </p>
+
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>What if I get tired?</h2>
+          <p>
+            Sleep xD We will have matresses available for you rest!
+          </p>
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>Where is SheHacks?</h2>
+          <p>
+            SheHacks will be held at <a href=""
+              target="_blank">CC3, Indian Institute Of Information Technology, Allahabad</a>
+            in Prayagraj, India.
+          </p>
+          <img src="arrow.svg" class="arrow" />
+        </div>
+        <div class="qaa">
+          <h2>My question wasn't answered here</h2>
+          <p>
+            Please email us at <a href="">geekhaven@iiita.ac.in</a>with
+            all your questions!
+          </p> <!-- needs email link -->
+
+          <img src="arrow.svg" class="arrow" />
+        </div>
+      </div>
+
+    </div>
+    <div class="section" id="team">
+      <h1 class="section-title">Meet the Team</h1>
+      <div class="container">
+        <div class="person">
+          <img src="img/sponsors/sneha.jpg" />
+          <h2>Sneha Mishra</h2>
+          <h3><span>Lead Organizer</span></h3>
+        </div>
+        <div class="person">
+          <img src="img/sponsors/ananya1.jpg" />
+          <h2>Ananya Mohanty</h2>
+          <h3><span>Co-organizer</span></h3>
+        </div>
+        <div class="person">
+          <img src="img/sponsors/chaitali.jfif" />
+          <h2>Chaitali Agrawal</h2>
+          <h3><span>Co-organizer</span></h3>
+        </div>
+        <div class="person">
+          <img src="img/sponsors/ishan.jfif" />
+          <h2>Ishan Agrawal</h2>
+          <h3><span>Co-organizer</span></h3>
+        </div>
+
+      </div>
+    </div>
+    <div class="section" id="sponsors">
+      <h1 class="section-title">Our Gracious Sponsors</h1>
+      <p>The last year’s edition of SheHacks witnessed a massive participation from 200+ female developers from 120+ colleges and made the event a huge success. To make the event bigger and to achieve our vision, we need people/companies like you/yours.
+
+By sponsoring us, you become a huge catalyst in encouraging women in technology by inspiring potential developers across the country to represent themselves. See the Brochure to view the various sponsorship titles and the benefits associated with being our sponsor</p>
+      <p>If you would like to learn more about sponsoring Shehacks, here is a link to our <a target="_blank" href="">Sponsorship Handbook</a>.</p>
+
+      <div id="diamond" class="pad">
+        <div class="tiertitle">
+          <div>Title Sponsor</div>
+        </div>
+        <div class="container">
+          <div class="sponsor">
+            <a href="https://balsamiq.com/" target="_blank">
+            <img src="img/sponsor/balsamiq.png" /></a>
+            </br>
+          </div>
+          <!-- <div class="sponsor">
+            <img src="img/sponsors/gatsby.png" />
+            </br>
+          </div> -->
+        <!-- </br>
+          <a href="https://guide.devfolio.co/appendix/c-apply-with-devfolio-button-integration"><div class="sponsor">
+            <img src="img/sponsors/devfolio.png" />
+            </br>
+          </div>
+        </a>
+          <div class="sponsor">
+            <img src="img/sponsors/hackerearth.png" />
+            </br>
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsors/hasura.png "/>
+            </br>
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsors/coding.png "/>
+            </br>
+          </div> -->
+        </div>
+      </div>
+
+      <div id="diamond">
+        <div class="tiertitle">
+          <div>Associate Sponsors</div>
+        </div>
+        <div class="container">
+          <div class="sponsor">
+            <a href="https://devfolio.co/"><img src="img/sponsor/devfolio.svg" /></a>
+            </br>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.linode.com/"><img src="img/sponsor/linode-full-RGB-fc.svg" /></a>
+            </br>
+          </div>
+        </div>
+      </div>
+      
+      <div id="diamond">
+        <div class="tiertitle">
+          <div>Platinum Sponsors</div>
+        </div>
+        <div class="container">
+          <div class="sponsor">
+            <img src="img/sponsor/hasura.svg" />
+            </br>
+          </div>
+        </div>
+      </div>
+      
+
+      <div id="diamond">
+        <div class="tiertitle">
+          <div>Gold Sponsors</div>
+        </div>
+        <div class="container">
+          <div class="sponsor">
+            <img src="img/sponsor/matic.png" />
+            </br>
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsor/buildkite.png" />
+            </br>
+          </div>
+        </div>
+      </div>
+
+      <div id="diamond">
+        <div class="tiertitle">
+          <div>Silver Sponsors</div>
+        </div>
+        <div class="container">
+          <div class="sponsor">
+            <img src="img/sponsor/Gatsby-Logo.svg" />
+            </br>
+          </div>
+        </div>
+      </div>
+
+      <div id="bronze">
+        <div class="tiertitle">
+          <div>Patrons</div>
+        </div>
+        <div class="container">
+          <div class="sponsor">
+            <img src="img/sponsor/jetbrains.png" />
+            <!-- <div>Heroku</div> -->
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsor/logo-elastic.svg" />
+            <!-- <div>Jetbrains</div> -->
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsor/hackerearth.png" />
+            <!-- <div>Paytm</div> -->
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsor/wolfram-language-text-logo.png" />
+            <!-- <div>Wolfram</div> -->
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsor/zulip.svg" />
+            <!-- <div>Linode</div> -->
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsors/interview-cake.jpg" />
+            <!-- <div>Interview Cake</div> -->
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsor/Crowdera.png" />
+            <!-- <div>Interview Cake</div> -->
+          </div>
+          <div class="sponsor">
+            <img src="img/sponsor/Protoio-logo.svg" />
+            <!-- <div>Interview Cake</div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="ping">
+      Looking forward to having you on board! Feel free to ping us in case of any queries.
+      Check out our social media handles for more information!
+    </div>
+    <div id="socialmedia">
+      <a href="https://www.facebook.com/geekhaveniiita/?fref=ts"><img src="facebook.svg" /></a>
+      <a href=""><img src="twitter.svg" /></a>
+      <a href="mailto:geekhaven@iiita.ac.in"><img src="email.svg" /></a>
+      <!-- needs email link -->
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'myhackathonkey',
+    }
+
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+        new Devfolio(devfolioOptions);
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
+  </script>
+
+</body>
+
+</html>
