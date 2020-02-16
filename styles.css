@@ -1236,10 +1236,10 @@ code {
   text-align: center;
   text-transform: lowercase;
 }
-​
+ ​
 #devfolio-apply-now:not([disabled]) {
   cursor: pointer;
-}
+} 
 ​
 #devfolio-apply-now:hover {
   background-color: #2954BF !important;
