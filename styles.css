@@ -47,7 +47,7 @@ html, body {
   background-color: rgba(255,255,255, .3);
 }
 #registrationButtonBody {
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
   border-radius: .5em;
   border: 4px solid #faf3e3;
   text-align: center;
@@ -1217,7 +1217,7 @@ code {
 }
 
 
-#devfolio-apply-now {
+/* #devfolio-apply-now {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
@@ -1243,4 +1243,23 @@ code {
 ​
 #devfolio-apply-now:hover {
   background-color: #2954BF !important;
+} */
+
+#devfolio-apply-now{
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: #FFFFFF;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  margin-left: 20px;
+  border: 4px solid #faf3e3;
+  padding: 10px;
+  border-radius: 10px;
 }
