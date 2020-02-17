@@ -492,10 +492,10 @@ a {
   width: 300px;
 }
 #bronze .sponsor {
-  width: 300px;
-  height: 300px;
-  max-width: 300px;
-  min-width: 300px;
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  min-width: 250px;
   box-sizing: border-box;
   text-align: center;
   flex-basis: 200px;
@@ -1262,4 +1262,60 @@ code {
   border: 4px solid #faf3e3;
   padding: 10px;
   border-radius: 10px;
+}
+
+#silver .sponsor img {
+  width: 400px;
+  max-width: 100%;
+  height: 200px;
+  float:left;
+  object-fit: contain;
+}
+
+#xyz .sponsor {
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+  flex-basis: 200px;
+}
+#xyz .sponsor img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  float:left;
+  object-fit: contain;
+}
+#xyz .sponsor div {
+  display: inline;
+  font-weight: bold;
+  font-size: 2em;
+  color: #050b1b;
+  margin:auto;
+}
+
+#xyz1 .sponsor {
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+  flex-basis: 200px;
+}
+#xyz1 .sponsor img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  float:left;
+  object-fit: contain;
+}
+#xyz1 .sponsor div {
+  display: inline;
+  font-weight: bold;
+  font-size: 2em;
+  color: #050b1b;
+  margin:auto;
 }
