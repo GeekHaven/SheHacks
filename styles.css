@@ -456,9 +456,9 @@ a {
   float: none;
 }
 #diamond .sponsor img {
-  width: 400px;
+  width: 450px;
   max-width: 95%;
-  height: 200px;
+  height: 250px;
   margin: 40px;
   float:left;
   object-fit: contain;
@@ -1077,6 +1077,8 @@ code {
 @media screen and (max-width: 767px) {
   .wrapper {
     height: 700px;
+    margin-bottom: 100px;
+    padding-top: 80px;
   }
 }
 .content1 {
@@ -1297,10 +1299,10 @@ code {
 }
 
 #xyz1 .sponsor {
-  width: 300px;
-  height: 300px;
-  max-width: 300px;
-  min-width: 300px;
+  width: 350px;
+  height: 350px;
+  max-width: 350px;
+  min-width: 350px;
   box-sizing: border-box;
   text-align: center;
   flex-basis: 200px;
