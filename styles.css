@@ -1060,7 +1060,15 @@ code {
 
 
 /* prize card */
-
+.headoutc{
+  width: 200px;
+  text-align: center;
+  margin-left: -40px;
+  margin-bottom: 40px;
+}
+.headoutc img{
+  margin-left: -30px;
+}
 .wrapper {
   width: 100vw;
   margin: 0 auto;
